@@ -17,7 +17,7 @@ const { title, description } = Astro.props;
   <head>
     <Head title={`${title} | ${SITE.NAME}`} description={description} />
   </head>
-  <body>
+  <body class="absolute inset-0 h-full w-full dark:bg-[radial-gradient(#2a2a2a_1px,transparent_1px)] dark:[background-size:16px_16px] bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
     <Header />
     <main>
       <slot />

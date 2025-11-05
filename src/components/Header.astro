@@ -6,10 +6,13 @@ import { SITE } from "@consts";
 
 <header>
   <Container>
-    <div class="flex flex-wrap gap-y-2 justify-between">
+    <div class="flex flex-wrap gap-y-2 justify-between items-end">
       <Link href="/" underline={false}>
-        <div class="font-semibold">
-          {SITE.NAME}
+        <div class="flex items-end">
+          <img src="/avatar.svg" alt="Logo" class="w-10 h-10" />
+          <div class="font-bold font-ui">
+            MOKA.
+          </div>
         </div>
       </Link>
       <nav class="flex gap-1">

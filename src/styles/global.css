@@ -20,13 +20,20 @@ body {
   @apply font-sans antialiased;
   @apply flex flex-col;
   @apply bg-stone-100 dark:bg-stone-900;
-  @apply text-black/50 dark:text-white/75;
+  @apply text-[#757575] dark:text-white/75;
 }
 
 header {
   @apply fixed top-0 left-0 right-0 z-50 py-5;
-  @apply bg-stone-100/75 dark:bg-stone-900/25;
-  @apply backdrop-blur-sm saturate-200;
+  @apply bg-transparent;
+  @apply backdrop-blur-sm;
+  background:
+    radial-gradient(#e5e7eb 1px, transparent 1px)
+      repeat scroll 0% 0% / 16px 16px;
+}
+
+.dark header {
+  @apply dark:bg-[radial-gradient(#2a2a2a_1px,transparent_1px)] dark:[background-size:16px_16px];
 }
 
 main {
@@ -71,3 +78,25 @@ html #back-to-top {
 html.scrolled #back-to-top {
   @apply opacity-100 pointer-events-auto;
 }
+
+.animate-wave {
+  display: inline-block;
+  animation: wave 1.2s infinite;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(10deg);
+  }
+  75% {
+    transform: rotate(-10deg);
+    
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
