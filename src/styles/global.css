@@ -27,9 +27,6 @@ header {
   @apply fixed top-0 left-0 right-0 z-50 py-5;
   @apply bg-transparent;
   @apply backdrop-blur-sm;
-  background:
-    radial-gradient(#e5e7eb 1px, transparent 1px)
-      repeat scroll 0% 0% / 16px 16px;
 }
 
 .dark header {
