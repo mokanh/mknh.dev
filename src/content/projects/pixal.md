@@ -1,7 +1,7 @@
 ---
 title: "PIXAL"
 description: "Sortir Foto Lebih SatSet. Tanpa Upload. Tanpa Install."
-date: "Mar 18 2024"
+date: "Jan 24 2026"
 demoURL: "https://pixal.id"
 repoURL: ""
 ---
