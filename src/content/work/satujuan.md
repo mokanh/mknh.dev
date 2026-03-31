@@ -1,7 +1,7 @@
 ---
 company: "Satujuan - BlazBluz"
 role: "Frontend Web Developer"
-dateStart: "10/01/2018"
+dateStart: "09/01/2018"
 dateEnd: "06/01/2019"
 ---
 

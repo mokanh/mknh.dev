@@ -1,7 +1,7 @@
 ---
 company: "Senalogy"
 role: "Founding Full-Stack Engineer"
-dateStart: "06/01/2025"
+dateStart: "05/01/2025"
 dateEnd: ""
 ---
 

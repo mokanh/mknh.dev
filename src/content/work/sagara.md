@@ -1,7 +1,7 @@
 ---
 company: "Sagara Technology"
 role: "Frontend Web Developer"
-dateStart: "10/01/2019"
+dateStart: "09/01/2019"
 dateEnd: "01/01/2022"
 ---
 
